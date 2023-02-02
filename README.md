@@ -1,6 +1,12 @@
 # JustCheckingInBot
 
-Purpose/Bot intro msg after pressing start
+Why I'm making this
+- I'm friends with lots of awfully busy people, and sometimes we forget or are too tired to remember to check in on each other, so I hatched the idea for this bot
+- Have I done any research as to whether a similar bot already exists? No
+- I'm a baby coder, and still slowly working my way through Angela Yu's 100 Days of Code, so this is a side project to challenge myself
+- I'm looking for collaborators!! :)
+
+Bot Intro
 - Welcome to JustCheckingInBot, a bot designed to help you check in regularly on your SO/friends/family. If you’re too busy, tired, fighting, or forgot to message them, JustCheckingInBot’s daily reminders will help you out. All it takes is a few seconds.
 
 Bot features
