@@ -1,0 +1,33 @@
+Start bot
+  <Intro message>
+  BUTTON: Settings
+    Set-up
+      “Are you using this bot with your partner/significant other or friend?”
+        if partner:
+          user = input(“Enter your name: “)
+          name = input(“Enter your partner’s name/nickname: “)
+        elif friend:
+          user = input(“Enter your name: “)
+          name = input(“Enter your friend’s name/nickname: “)
+    Reminders
+      “Customise how often and when you’d like xxx to remind you to check-in: “
+        - x times daily/daily/weekly/monthly
+        - preferred notif time
+    Custom emoji (for thinking of you function)
+      “Type in an emoji you’d like to send every time you think of your SO”
+  BUTTON: Daily check-in
+    On a scale of 1-10, how was your day?
+      - Only the indiv user can see the qns and output
+      - Outputs for diff numbers
+        1-3: “*hugs* Do you want to talk about it with {name}?” —> Y/N
+        4-6: “Meh, are there any highlights or frustrations that you’d like to share with {name}?” —> Y/N
+        7-9: “That’s great! Do you want to tell {name} about it?” —> Y/N
+        10: “Sounds like an excellent day, want to share your joy with {name}?” —> Y/N
+    Do you want to talk about it?
+      No: “Take care, and if you change your mind, you can always hit the Yes button!”
+      while want_to_talk = False: xx
+      triggers msg to other person: “{user} rated their day {score}, but they don’t feel like talking about it just yet.”
+      Yes: “Great, we’ll let {name} know!
+      triggers msg to other person: “{user} rated their day {score}, and they want to share about it!”
+  BUTTON: Thinking of you
+    When tapped: sends emoji in the chatgrp
