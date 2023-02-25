@@ -7,10 +7,12 @@ Why I'm making this
 - I'm looking for collaborators!! :)
 
 About
-@JustCheckingInBot was designed to help you check in regularly on your SO/friends/family and remind them that they’re loved. If you’re too busy, tired, or forgot to message them, our daily reminders will help you out. All it takes is a few seconds.
+@JustCheckingInBot was designed to help you check in regularly on your SO/friends/family and remind them that someone cares. If you’re too busy, tired, or forgot to message them, our daily reminders will help you out. All it takes is a few seconds.
 
-How-to
-Create a new group with whoever you want to check in on, and add this bot. You’ll be individually guided through a quick set-up, then you’re good to go!
+🚦Getting Started 🚦
+- Create a new group with whoever you want to check in on/use this bot with
+- Add @JustCheckingInBot to the group
+- You’ll be individually guided through a quick set-up, then you’re good to go!
 
 Bot features
 - Custom reminders to rate your day
